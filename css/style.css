@@ -1,0 +1,253 @@
+html {
+  color: #222;
+  font-size: 1em;
+  line-height: 1.4;
+  font-family: 'Verdana', sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  background-color: #fafafa
+}
+
+.button {
+  background-color: white;
+  border: gray solid 2px;
+  color: #BA0C2F;
+  font-weight: bold;
+  font-size: 2em;
+  padding: 0.25em;
+  transition-duration: 0.5s;
+  border-radius: 8px;
+}
+
+.button:hover {
+  background-color: #BA0C2F;
+  color: white;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#fixed-button {
+  bottom: 75px;
+  right: 900px;
+  font-weight: bold;
+  font-size: 2em;
+  padding: 0.25em;
+  border-radius: 15px;
+  transition-duration: 0.5s;
+}
+
+#fixed-button:hover {
+  background-color: #BA0C2F;
+  color: white;
+}
+
+header {
+  clear: both;
+  color: #BA0C2F;
+  padding: 20px;
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Verdana', sans-serif;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  margin: 0 10px;
+}
+
+#section {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.float-image {
+  float: left;
+  margin-left: 15px;
+}
+
+main {
+  width: 50%;
+  padding: 0 20px;
+}
+
+p {
+  margin: 20px;
+  color: #1a396a;
+}
+
+img {
+  max-width: 100%;
+  height: 50%;
+}
+
+aside {
+  width: 25%;
+  background-color: #A2AAAD;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ddd;
+}
+
+table {
+  width: 100%;
+  border: 1px solid #ddd;
+  color: #BA0C2F;
+}
+.image-table-container {
+  width: 20%;
+  margin-right: 20px;
+}
+
+.left-image {
+  width: 20%;
+  margin-top: 10px;
+  margin-right: 20px;
+  height: auto;
+}
+
+.below-table {
+  clear: left;
+  width: 50%;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+h2 {
+  text-align: center;
+  color: #1a396a
+}
+
+h4 {
+  font-size: 2em;
+  font-family: 'Verdana', sans-serif;
+  text-align: center;
+  color: #1a396a;
+}
+
+.shifted-heading {
+  position: relative;
+  bottom: 10px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+caption {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+img[alt="Flag of Ohio"] {
+  width: 25%;
+  padding: 20px;
+  align-self: flex-start;
+}
+
+form {
+  flex: 0 0 400px;
+  margin: 0 20px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #A2AAAD;
+  font-weight: bold;
+  color: #BA0C2F;
+  text-align: center;
+  border-style: solid;
+}
+
+input, button {
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-family: 'Verdana', sans-serif;
+  font-weight: bold;
+  color: #BA0C2F;
+}
+
+button {
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: disc;
+  margin-left: 20px;
+  padding-left: 20px;
+}
+
+ul ul {
+  list-style-type: circle;
+  margin-left: 20px;
+  padding-left: 20px;
+}
+
+ol {
+  list-style-type: decimal;
+  margin-left: 20px;
+  padding-left: 20px;
+}
+
+ol ol {
+  list-style-type: lower-alpha;
+  margin-left: 20px;
+  padding-left: 20px;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.left-list, .right-list {
+  flex: 1;
+  margin: 0 20px;
+  padding: 30px;
+  background-color: #A2AAAD;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-style: solid;
+}
+
+.background-container {
+  background-image: url('../img/Flag_of_Ohio.svg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px;
+  height: 59.4vh;
+}
+
+textarea {
+  width: 300px;
+  height: 100px;
+}
+
+.logo-container {
+  position: relative;
+}
+
+.absolute-logo {
+  position: absolute;
+  top: 400px;
+  left: 20px;
+  width: 150px;
+  height: auto;
+}

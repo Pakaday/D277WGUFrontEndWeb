@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/app.js"></script>
+  <style>
+    body {
+      background-color: #f8f8f8;
+    }
+
+    .hover-container {
+      position: relative;
+      display: inline-block;
+    }
+
+    .hover-message {
+      display: none;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: rgba(0, 0, 0, 0.7);
+      color: white;
+      padding: 10px;
+      border-radius: 5px;
+      font-size: 18px;
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity 0.5s ease, visibility 0.5s ease;
+    }
+
+    .hover-container:hover .hover-message {
+      display: block;
+      opacity: 1;
+      visibility: visible;
+    }
+  </style>
+</head>
+
+<body class="background-container">
+
+<header>
+  <h1 class="shifted-heading">To Learn More</h1>
+  <div class="hover-container">
+    <a href="facts.html">
+      <img src="img/Ohio_Facts.png" alt="Ohio Facts" height="200" width="300">
+      <div class="hover-message">Click me</div>
+    </a>
+  </div>
+  <div class="logo-container">
+    <img class="absolute-logo" src="img/ohiocursive.jpg" alt="State of Ohio Cursive Logo.">
+  </div>
+  <nav>
+    <a href="index.html" class="button">Home</a>
+    <a href="columbus.html" class="button">Columbus</a>
+    <a href="cleveland.html" class="button">Cleveland</a>
+    <a href="cincinnati.html" class="button">Cincinnati</a>
+  </nav>
+</header>
+
+<section>
+  <h4 style="color: #c20b3a;">Contact Info</h4>
+  <div class="form-container">
+    <ol class="left-list">
+      <h3>Notable information about Ohio</h3>
+      <li>Birthplace of Aviation
+        <ol>
+          <li>Home of the Wright brothers, Orville and Wilbur</li>
+        </ol>
+      </li>
+      <li>Home to 2 famous astronauts
+        <ol>
+          <li>Birthplace of Neil Armstrong, first person to walk on the moon, and John Glenn, first American to orbit Earth</li>
+        </ol>
+      </li>
+      <li>Rock and Roll Hall of Fame
+        <ol>
+          <li>Located in Cleveland, this major attraction celebrates the history and cultural impact of rock music</li>
+        </ol>
+      </li>
+    </ol>
+
+    <form id="emailForm">
+      <label for="fname">First Name:</label><br>
+      <input type="text" id="fname" name="fname"><br>
+      <label for="lname">Last Name:</label><br>
+      <input type="text" id="lname" name="lname"><br>
+      <label for="email">Email Address:</label><br>
+      <input type="text" id="email" name="email"><br>
+      <label for="email">Confirm Email Address:</label><br>
+      <input type="text" id="confirmEmail" name="email"><br>
+      <label for="message">Ask a question:</label><br>
+      <textarea id="message" name="message" placeholder="Type your question here"></textarea><br>
+      <button id="fixed-button" type="submit">Submit</button>
+    </form>
+
+    <ul class="right-list">
+      <h3>Noteworthy cuisine of Ohio</h3>
+      <li>Buckeyes
+        <ul>
+          <li>Chocolate-dipped peanut butter balls</li>
+        </ul>
+      </li>
+      <li>Cincinnati chili
+        <ul>
+          <li>A unique dish of chili and spaghetti that's been served for nearly 100 years</li>
+        </ul>
+      </li>
+      <li>Pierogi
+        <ul>
+          <li>A Polish dish that's been a staple of Ohio culture for centuries, pierogi can be boiled or fried and come in many varieties</li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</section>
+<div>
+  <img src="img/ohio_outline.png" alt="Ohio State" height="200" width="300" class="float-image">
+  <p>Ohio, often called the Buckeye State, is known for its rich history and vibrant culture.<br> It is home to the world-renowned Cedar Point amusement park, often referred to as <br> the "Roller Coaster Capital of the World," attracting thrill-seekers from around the globe.<br> Ohio is also famous for its diverse culinary offerings, including Cincinnati-style chili and <br> Buckeyes, a popular chocolate-peanut butter confection.<br> The state's economy is bolstered by a strong agricultural <br> sector, making it one of the top producers of soybeans <br> and corn in the nation.<br> Additionally, Ohio boasts <br> several prestigious universities, <br> including Ohio State University, which <br> contributes significantly to education <br> and research in the region.</p>
+</div>
+
+
+</body>
+</html>

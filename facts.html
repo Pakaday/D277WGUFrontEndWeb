@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Facts of Ohio</title>
+  <style>
+    body {
+      background-color: black;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+      max-width: 800px;
+      padding: 0 20px;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    button {
+      margin-top: 20px;
+      padding: 10px 20px;
+      font-size: 16px;
+      background-color: #808080;
+      color: black;
+      border: none;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #bf2f3c;
+      color: white;
+    }
+  </style>
+
+</head>
+<body>
+<div class="container">
+  <button onclick="goBack()">Go Back</button>
+
+  <img src="img/Ohio_Facts.png" alt="Ohio Facts">
+
+  <button onclick="goBack()">Go Back</button>
+</div>
+<script>
+  function goBack() {
+    history.back();
+  }
+</script>
+</body>
+</html>
